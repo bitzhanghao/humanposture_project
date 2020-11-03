@@ -13,7 +13,7 @@ public class DataProcess
     // 正式进行数据处理工作
     public static void main(String[] args)
     {
-        method(30006);
+        method(1200);
     }
     public static void method(int port)
     {
