@@ -1,0 +1,33 @@
+              滑雪运动指导系统设计
+一、数据的采集
+    数据格式：
+
+二、数据库的设计
+    数据库的格式：
+    Roll Pitch Yaw
+                dist_l,dist_r 位移
+                roll_l,pitch_l,yaw_l,roll_r,pitch_r,yaw_r 倾角
+                01.hip(髋骨):Hips_R	Hips_P	Hips_Y
+                02.RightUpLeg(右大腿):RightUpLeg_R	RightUpLeg_P	RightUpLeg_Y
+                03.RightLeg(右小腿)：RightLeg_R	RightLeg_P	RightLeg_Y
+                04.RightFoot（右脚）：RightFoot_R	RightFoot_P	RightFoot_Y
+                05.LeftUpLeg（左大腿）：LeftUpLeg_R	LeftUpLeg_P	LeftUpLeg_Y
+                06.LeftLeg（左小腿）LeftLeg_R	LeftLeg_P	LeftLeg_Y
+                07.LeftFoot（左脚）：LeftFoot_R	LeftFoot_P	LeftFoot_Y
+                08.Spine（脊柱）：Spine2_R	Spine2_P	Spine2_Y
+                09.Head(头)：Head_R	Head_P	Head_Y
+                10.RightShoulder(右肩)：RightShoulder_R	RightShoulder_P	RightShoulder_Y
+                11.RightArm(右大臂)：RightArm_R	RightArm_P	RightArm_Y
+                12.RightForeArm（右小臂）RightForeArm_R	RightForeArm_P	RightForeArm_Y
+                13.RightHand(右手)：RightHand_R	RightHand_P	RightHand_Y
+                14.LeftShoulder(左肩)：LeftShoulder_R	LeftShoulder_P	LeftShoulder_Y
+                15.LeftArm(左大臂)：LeftArm_R	LeftArm_P	LeftArm_Y
+                16.LeftForeArm(左小臂)：LeftForeArm_R	LeftForeArm_P	LeftForeArm_Y
+                17.lefthand(左手)LeftHand_R	LeftHand_P	LeftHand_Y
+
+三、实体类的设计
+    实体类：类名：HumanData 属性名：左侧距离、右侧距离、倾角1roll,pitch,yaw、倾角2roll,pitch,yaw、17节点的roll，pitch，yaw
+
+四、数据的传输（使用udp协议）
+    作为接收方
+

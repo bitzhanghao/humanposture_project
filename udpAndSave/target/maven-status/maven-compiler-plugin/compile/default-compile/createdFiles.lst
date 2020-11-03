@@ -1,0 +1,14 @@
+com\bjpowernode\domain\Student.class
+com\bjpowernode\utils\Convert.class
+com\bjpowernode\dao\HumanDataDao.class
+com\bjpowernode\test\Test03.class
+com\bjpowernode\utils\MyBatisUtils.class
+com\bjpowernode\utils\UdpTestUtil.class
+com\bjpowernode\test\Test01.class
+com\bjpowernode\test\Test04.class
+com\bjpowernode\utils\UdpUtil.class
+com\bjpowernode\dao\StudentDao.class
+com\bjpowernode\service\DataProcess.class
+com\bjpowernode\test\Test02.class
+com\bjpowernode\domain\HumanData.class
+com\bjpowernode\test\InsertTest01.class

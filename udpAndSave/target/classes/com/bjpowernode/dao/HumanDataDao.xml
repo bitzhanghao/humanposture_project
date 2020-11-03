@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bjpowernode.dao.HumanDataDao">
+
+    <insert id="insertHumanData">
+
+        insert into t_bodyposture values(#{id},#{time},
+        #{dist_l},#{dist_r},
+        #{roll_l},#{pitch_l},#{yaw_l},
+        #{roll_r},#{pitch_r},#{yaw_r},
+        #{hips_R},#{hips_P},#{hips_Y},
+        #{rightUpLeg_R},#{rightUpLeg_P},#{rightUpLeg_Y},
+        #{rightLeg_R},#{rightLeg_P},#{rightLeg_Y},
+        #{rightFoot_R},#{rightFoot_P},#{rightFoot_Y},
+        #{leftUpLeg_R},#{leftUpLeg_P},#{leftUpLeg_Y},
+        #{leftLeg_R},#{leftLeg_P},#{leftLeg_Y},
+        #{leftFoot_R},#{leftFoot_P},#{leftFoot_Y},
+        #{spine_R},#{spine_P},#{spine_R},
+        #{head_R},#{head_P},#{head_Y},
+        #{rightShoulder_R},#{rightShoulder_P},#{rightShoulder_Y},
+        #{rightArm_R},#{rightArm_P},#{rightArm_Y},
+        #{rightForeArm_R},#{rightForeArm_P},#{rightForeArm_Y},
+        #{rightHand_R},#{rightHand_P},#{rightHand_Y},
+        #{leftShoulder_R},#{leftShoulder_P},#{leftShoulder_Y},
+        #{leftArm_R},#{leftArm_P},#{leftArm_Y},
+        #{leftForeArm_R},#{leftForeArm_P},#{leftForeArm_Y},
+        #{leftHand_R},#{leftHand_P},#{leftHand_Y})
+
+    </insert>
+
+</mapper>
